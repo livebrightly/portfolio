@@ -7,27 +7,40 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "favicon": "^0.0.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
     "node-sass": "^7.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "sass": "^1.53.0",
     "serve-favicon": "^2.5.0",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "reload": "^3.2.0"
+    "reload": "^3.2.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.73.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test2": "react-scripts test",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject",
+    "scss": "sass --watch .styles.scss:styles.css",
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./"
   },
   "eslintConfig": {
     "extends": [

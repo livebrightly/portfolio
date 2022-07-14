@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App header {
+  background-color: green;
+  height: 50px;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+nav {
+  background-color: #023c40;
+  height: 90px;
+  width: 100vw;
+  color: white;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  padding-bottom: 5px;
+}
+nav li:hover {
+  background-color: #e5a942;
+  padding: 5px;
+  border-radius: 10px;
+}/*# sourceMappingURL=global.style.css.map */

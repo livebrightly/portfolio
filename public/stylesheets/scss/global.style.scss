@@ -1,0 +1,58 @@
+$tree-green: #023c40;
+$mango: #e5a942;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App header {
+  background-color: green;
+  height: 50px;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+nav {
+  background-color: $tree-green;
+  height: 90px;
+  width: 100vw;
+  color: white;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-bottom: 5px;
+
+    &:hover {
+      background-color: $mango;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  }
+}
